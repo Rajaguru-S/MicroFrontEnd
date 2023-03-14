@@ -1,4 +1,4 @@
-name: run-container
+name: deploy-container
 
 on:
   push:
