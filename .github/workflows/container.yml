@@ -3,12 +3,8 @@ name: deploy-container
 on:
   workflow_dispatch:
     inputs:
-      logLevel:
-        description: 'Log level'     
-        required: true
-        default: 'warning'
-      tags:hi
-        description: 'Test scenario tags' 
+      myInput:
+        default: "my input value"
   push:
     branches:
       - master
