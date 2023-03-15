@@ -1,13 +1,12 @@
 import React from 'react';
-import MarketingApps from './components/marketingApp';
-const App = () => {
-    return (
-        <div>
-        <h1>Welcome Container!!!</h1>
-        <hr/>
-        <MarketingApps />
-        </div>
-    )
-}
+import MarketingApp from './components/MarketingApp';
 
-export default App;
+export default () => {
+  return (
+    <div>
+      <h1>Hi there!!!</h1>
+      <hr />
+      <MarketingApp />
+    </div>
+  );
+};
